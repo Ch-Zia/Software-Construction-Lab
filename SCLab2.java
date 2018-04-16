@@ -1,8 +1,4 @@
-package sclab2;
-/**
-*
-* @author Zia Ur Rehman
-*/
+
  
 import java.util.regex.Pattern;
 import java.util.Scanner;
