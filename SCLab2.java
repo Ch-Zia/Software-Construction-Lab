@@ -1,4 +1,3 @@
-package sclab2;
 /**
 *
 * @author Zia Ur Rehman
