@@ -20,6 +20,7 @@ public class SCLab2{
     Pattern patNum = Pattern.compile("\\d.\\d+");
 
 
+
     Matcher matcher = patDT.matcher(test);
     while (matcher.find()) {
       System.out.println("Datatype: "+matcher.group());
