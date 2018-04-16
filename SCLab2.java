@@ -17,7 +17,8 @@ public class SCLab2{
     Pattern patDT = Pattern.compile("(int|double|float)");
     Pattern patOp = Pattern.compile("[-+*\\/=]");
     Pattern patId = Pattern.compile("\\b[_a-zA-Z][_a-zA-Z0-9]*\\b");
-    Pattern patternNum = Pattern.compile("\\d+");
+    Pattern patNum = Pattern.compile("\\d.\\d+");
+
 
 
     Matcher matcher = patDT.matcher(test);
